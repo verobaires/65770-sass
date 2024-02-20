@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  gap: 20px;
+  color: #BFC4CA;
+  font-size: 2.5rem;
+  background: #040404;
+}
+
+.btn--light {
+  background: #BFC4CA;
+  border: none;
+  color: #040404;
+}
+.btn--light:hover {
+  background-color: #f4f4f4;
+}
+
+.btn--dark {
+  background: #fa891f;
+  color: #040404;
+}
+.btn--dark:hover {
+  background-color: #bb5113;
+  border: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.6;
+  background: #040404;
+  color: #fff;
+}
+
+.fontsize-1 {
+  font-size: 1rem;
+}
+
+.fontsize-2 {
+  font-size: 1.05rem;
+}
+
+.fontsize-3 {
+  font-size: 1.5rem;
+}
+
+.fontsize-4 {
+  font-size: 2.75rem;
+}
+
+.fontsize-5 {
+  font-size: 2.8rem;
+}
+
+.btn, .btn--light, .btn--dark {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 40px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+/* &--light {
+    background: #BFC4CA;
+    border: none;
+    color: #040404;
+
+
+    &:hover {
+        background-color: #f4f4f4;
+    }
+}
+
+&--dark {
+    background: #fa891f;
+    color: #040404;
+
+
+    &:hover {
+        background-color: #bb5113;
+        border: 0px;
+    }
+} */
+header.header-container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+header.header-container nav {
+  display: flex;
+  justify-content: end;
+  height: 50px;
+  align-items: center;
+}
+header.header-container nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+header.header-container nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.perfil-1 {
+  background-image: url("../img/perfil-1.jpg");
+  width: 120px;
+  height: 120px;
+  clip-path: circle(50% at 50% 50%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.perfil-2 {
+  background-image: url("../img/perfil-2.jpg");
+  width: 120px;
+  height: 120px;
+  clip-path: circle(50% at 50% 50%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.perfil-3 {
+  background-image: url("../img/perfil-3.jpg");
+  width: 120px;
+  height: 120px;
+  clip-path: circle(50% at 50% 50%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.perfil-4 {
+  background-image: url("../img/perfil-4.jpg");
+  width: 120px;
+  height: 120px;
+  clip-path: circle(50% at 50% 50%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  padding: 15px;
+}
+main section.main-container {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+main section.main-container .main__row-text {
+  width: 50%;
+  padding-right: 40px;
+  padding-top: 80px;
+}
+main section.main-container .main__row-text a {
+  margin-top: 30px;
+  text-decoration: none;
+}
+main section.main-container .main__row-text .text-h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+main section.main-container .main__row-form {
+  width: 40%;
+  margin-left: 90px;
+}
+main section.main-container .main__row-form .form-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+  padding: 30px;
+  background-image: linear-gradient(to right, #bb5113, #e2871f);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+main section.main-container .main__row-form .form-logo p {
+  font-size: 5rem;
+  font-weight: 600;
+}
+main section.main-container .main__row-form form {
+  background: #FFF;
+  padding: 50px 50px 70px 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+main section.main-container .main__row-form form a {
+  width: 100%;
+  text-align: center;
+}
+main section.main-container .main__row-form form button {
+  width: 100%;
+}
+main section.main-container .main__row-form form label {
+  display: inline-block;
+  margin-bottom: 6px;
+  color: #4D4D4D;
+}
+main section.main-container .main__row-form form .form-group {
+  margin-bottom: 16px;
+}
+main section.main-container .main__row-form form .form-control {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #4D4D4D;
+  border-radius: 20px;
+}
+main section.main__row-info {
+  padding: 50px 20px;
+  background: rgba(255, 92, 8, 0.9882352941);
+  color: #050505;
+}
+main section.main__row-info .text-h2 {
+  font-size: 2.8rem;
+  font-weight: 200;
+  padding-bottom: 40px;
+}
+main section.main__row-info .info__row {
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+main section.main__row-info .info__row .info__row-content {
+  padding-right: 40px;
+}
+main section.main__row-info .info__row .info__row-content .text-h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+main section.main__row-info .info__row .info__row-content .text-p {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ /*.footer {
+    height: 80px;  
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     color: #BFC4CA;
+     font-size: 2.5rem;
+     background: #040404;
+  
+}*/
+.footer i:hover {
+  color: #fa891f;
+}
+
+@media (max-width: 767px) {
+  ul {
+    width: 100%;
+  }
+  main section.main-container .main__row-text {
+    width: 100%;
+    padding-right: 40px;
+    padding-top: 80px;
+    margin-bottom: 36px;
+  }
+  main section.main-container .main__row-text .text-h1 {
+    font-size: 2.75rem;
+  }
+  main section.main-container .main__row-text .btn, main section.main-container .main__row-text .btn--light, main section.main-container .main__row-text .btn--dark {
+    padding: 6px 10px;
+  }
+  main section.main-container .main__row-form {
+    width: 80%;
+    margin-left: 90px;
+    margin: auto;
+  }
+  main section.main__row-info .container .info__row {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  main section.main__row-info .container .info__row .info__row-content {
+    width: 69%;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

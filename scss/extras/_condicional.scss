@@ -1,0 +1,22 @@
+$season : none;
+//carnaval, pascua, navidad
+
+
+@if $season == carnaval {
+    .header-container{
+        background-image: url(../img/carnaval-banner.png); 
+        width: 100%;
+        nav ul li a {color:black}
+        }
+     }
+    @else if $season == pascua {
+        .header-container{
+            background-image: url(../img/eastern-banner.png);
+            width: 100%;
+            nav ul li a {color:black}}
+        }
+    @else if $season == navidad {
+        .header-container{
+            background-image: url(../img/christmas-banner.png);}
+        }
+

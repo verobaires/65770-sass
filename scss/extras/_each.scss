@@ -1,0 +1,14 @@
+$font-size: (1: 1rem, 2:1.05rem, 3:1.5rem, 4:2.75rem, 5:2.8rem);
+
+@each $key, $font in $font-size{
+    .fontsize-#{$key} {
+        font-size : $font;
+    }
+}
+
+//.fontsize-1{font-size: 1rem}
+//.fontsize-2{font-size: 1.05rem}
+//.fontsize-3{font-size: 1.5rem}
+//.fontsize-4{font-size: 2.75rem}
+//.fontsize-5{font-size: 2.8rem}
+

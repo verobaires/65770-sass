@@ -1,0 +1,23 @@
+.btn--light {
+    @extend .btn;
+    background: #BFC4CA;
+    border: none;
+    color: #040404;
+
+    &:hover {
+        background-color: #f4f4f4;
+    }
+}
+
+.btn--dark {
+    @extend .btn;
+    background: #fa891f;
+    color: #040404;
+
+    &:hover {
+        background-color: #bb5113;
+        border: 0px;
+    }
+
+
+}

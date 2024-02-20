@@ -1,0 +1,18 @@
+@mixin flex ($direccion, $jcontent, $align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $jcontent;
+    align-items: $align;
+}
+
+.footer {
+    @include flex(row , center, center);
+    height: 80px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    gap: 20px;
+    color: #BFC4CA;
+    font-size: 2.5rem;
+    background: #040404;
+}

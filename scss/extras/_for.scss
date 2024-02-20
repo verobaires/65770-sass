@@ -1,0 +1,13 @@
+//$images: 4;
+
+@for $i from 1 through 4 {
+    .perfil-#{$i} {
+      background-image: url("../img/perfil-#{$i}.jpg");//images/image#{$i}.jpg
+      width: 120px;
+      height: 120px;
+      clip-path: circle(50% at 50% 50%);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    } 
+}
